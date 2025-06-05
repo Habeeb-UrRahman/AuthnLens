@@ -90,7 +90,7 @@ const TextDetection = () => {
       const response = await fetch('https://api.sapling.ai/api/v1/aidetect', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ key: 'I9DA47LYX4C3UQGRRBUF7C5DZPRFJ65S', text }),
+        body: JSON.stringify({ key: 'YOUR_API_KEY_HERE', text }),
       });
       const data = await response.json();
 

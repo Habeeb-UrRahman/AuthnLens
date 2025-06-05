@@ -10,8 +10,7 @@ import { useToast } from '@/hooks/use-toast';
 import { Loader, Mic, User } from 'lucide-react';
 
 // Define API endpoint
-// const API_URL = 'http://localhost:5000';
-const API_URL = 'http://192.168.0.154:5000';
+const API_URL = 'http://localhost:5000';
 
 // Define the types for our audio analysis result
 interface AudioAnalysisResult {

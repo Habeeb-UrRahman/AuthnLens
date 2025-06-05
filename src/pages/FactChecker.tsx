@@ -28,8 +28,7 @@ const RATING_MAP: Record<string, string> = {
   'Two Pinocchios': 'This claim contains a mix of good and bad parts.'
 };
 
-// const API_URL = 'http://localhost:5000';
-const API_URL = 'http://192.168.0.154:5000';
+const API_URL = 'http://localhost:5000';
 
 const exampleClaims = [
   'COVID-19 vaccines contain microchips.',
