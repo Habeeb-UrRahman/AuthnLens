@@ -1,4 +1,3 @@
-// API Key in Backend version.
 import { useState, useCallback, useEffect } from 'react';
 import Layout from '@/components/Layout';
 import DetectionResult from '@/components/DetectionResult';
