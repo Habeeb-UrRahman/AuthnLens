@@ -16,7 +16,8 @@ interface AnalysisResult {
   };
 }
 
-const API_URL = 'http://192.168.0.154:5000';
+// const API_URL = 'http://192.168.0.154:5000';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
 
 const TextDetection = () => {
   const [text, setText] = useState<string>('');
