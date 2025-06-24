@@ -16,7 +16,8 @@ interface AnalysisResult {
 }
 
 // const API_URL = 'http://192.168.0.154:5000';
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+// const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+const API_URL = "https://authnlens-backend-674458572550.asia-south1.run.app/";
 
 const TextDetection = () => {
   const [text, setText] = useState<string>('');
