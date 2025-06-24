@@ -11,7 +11,8 @@ import { Loader } from 'lucide-react';
 
 // Define API endpoint
 // const API_URL = 'http://localhost:5000';
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+// const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 
 const ImageDetection = () => {
