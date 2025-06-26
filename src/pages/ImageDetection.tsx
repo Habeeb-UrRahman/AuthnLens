@@ -12,8 +12,8 @@ import { Loader } from 'lucide-react';
 // Define API endpoint
 // const API_URL = 'http://localhost:5000';
 // const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
-// const API_URL = "https://authnlens-backend-674458572550.asia-south1.run.app/";
-import { API_URL } from '@/lib/config';
+const API_URL = "https://authnlens-backend-674458572550.asia-south1.run.app/";
+// import { API_URL } from '@/lib/config';
 
 
 const ImageDetection = () => {
