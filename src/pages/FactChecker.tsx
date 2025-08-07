@@ -29,7 +29,7 @@ const RATING_MAP: Record<string, string> = {
 };
 
 // API Endpoint for Backend
-const API_URL = "https://authnlens-backend-674458572550.asia-south1.run.app/";
+const API_URL = "YOUR_BACKEND_URL";
 
 const exampleClaims = [
   'COVID-19 vaccines contain microchips.',
