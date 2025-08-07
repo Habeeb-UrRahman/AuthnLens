@@ -10,7 +10,7 @@ import { useToast } from '@/hooks/use-toast';
 import { Loader, Mic, User } from 'lucide-react';
 
 // Define API endpoint
-const API_URL = "https://authnlens-backend-674458572550.asia-south1.run.app/";
+const API_URL = "YOUR_BACKEND_URL";
 
 // Define the types for our audio analysis result
 interface AudioAnalysisResult {
