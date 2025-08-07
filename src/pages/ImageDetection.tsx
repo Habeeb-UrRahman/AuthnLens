@@ -10,7 +10,7 @@ import { useToast } from '@/hooks/use-toast';
 import { Loader } from 'lucide-react';
 
 // Define API endpoint
-const API_URL = "https://authnlens-backend-674458572550.asia-south1.run.app/";
+const API_URL = "YOUR_BACKEND_URL";
 
 const ImageDetection = () => {
   const [file, setFile] = useState<File | null>(null);
