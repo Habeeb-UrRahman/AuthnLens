@@ -15,7 +15,7 @@ interface AnalysisResult {
   };
 }
 
-const API_URL = "https://authnlens-backend-674458572550.asia-south1.run.app/";
+const API_URL = "YOUR_BACKEND_URL";
 
 const TextDetection = () => {
   const [text, setText] = useState<string>('');
